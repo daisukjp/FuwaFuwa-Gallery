@@ -16,19 +16,19 @@ if ( have_posts() ) :
 					
 						$post_format = get_post_format();
 
-						if ( $post_format == 'gallery' ) : ?>
+						// if ( $post_format == 'gallery' ) : ?>
 						
-							<figure class="featured-media group">
-								<?php FuwaFuwa_flexslider( 'post-image' ); ?>
-							</figure><!-- .featured-media -->
+						<!-- // 	<figure class="featured-media group"> -->
+						<?php //FuwaFuwa_flexslider( 'post-image' ); ?>
+						</figure><!-- .featured-media -->
 							
-						<?php elseif ( has_post_thumbnail() ) : ?>
+						<?php //elseif ( has_post_thumbnail() ) : ?>
 								
-							<figure class="featured-media">
-								<?php the_post_thumbnail( 'post-image' ); ?>
-							</figure><!-- .featured-media -->
+						<!-- // 	<figure class="featured-media"> -->
+						<?php //the_post_thumbnail( 'post-image' ); ?>
+						<!-- </figure>.featured-media -->
 								
-						<?php endif; ?>
+						<?php //endif; ?>
 						
 					<?php endif; ?>
 					
